@@ -100,6 +100,9 @@ body.page-home .entry-header {
     padding-top: 0;
     padding-bottom: 0;
 }
+body.error404 .ast-404-layout-1,body.error404 #primary {
+    margin-top: 0!important;
+}
 .breadcrumb-wrapper .breadcrumb {
     padding: 12px 15px;
     list-style: none;

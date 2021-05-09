@@ -82,7 +82,7 @@ if ( !is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 }
 add_action('astra_content_before','mos_custom_header');
 function mos_custom_header(){
-    if (!is_page() && !is_single() && !is_search()) : 
+    if (!is_page() && !is_single() && !is_search() && !is_404()) : 
     ?>
         <header class="page-header ast-no-thumbnail ast-no-meta">
             <h1 class="page-title" itemprop="headline">
@@ -100,9 +100,7 @@ function mos_custom_header(){
                 elseif (is_category()) :
                     single_cat_title( 'Category Archive: ');  
                 elseif (is_tag()) :
-                    single_tag_title( 'Tag Archive: ');    
-                elseif (is_404()) :
-                    echo '404 Page';  
+                    single_tag_title( 'Tag Archive: ');     
                 else : 
                     echo 'Archive Page';
                 endif;
