@@ -310,7 +310,7 @@ function crb_attach_theme_options() {
                             <div role="listitem" class="w-dyn-item">
                                 <div class="post-card">
                                     <div class="post-thumbnail position-relative">
-                                        <a class="hidden-link" href="<?php echo get_the_permalink() ?>">Read More</a>
+                                        <a class="hidden-link z-index-2" href="<?php echo get_the_permalink() ?>">Read More</a>
                                         <?php $categories = get_the_category();?>
                                         <?php if (sizeof($categories)) :?>
                                             <?php foreach($categories as $category) : ?>
