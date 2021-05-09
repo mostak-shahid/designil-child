@@ -687,5 +687,12 @@ body.search .ast-grid-common-col {
     }
     .single-post .related-post-wrapper .post-content .wp-post-image{width:100%;height:auto}
 }
-@media (max-width:599.98px){}
+@media (max-width:599.98px){
+    .mos-post-layout-list .post-card,.mos-post-block [class^="ast-post-format"] {
+        flex-direction: column;
+    }
+    .mos-post-block.mos-post-layout-list .ast-blog-featured-section, body.archive .ast-blog-featured-section,.mos-post-layout-list .post-card .post-thumbnail,.mos-post-block.mos-post-layout-list .post-content, body.archive .post-content {
+        width: 100%;
+    }
+}
 @media (max-width:479.98px){}
