@@ -677,7 +677,11 @@ body.search .ast-grid-common-col {
         width:50%;
     }
 }
-@media (max-width:781.98px){    
+@media (max-width:781.98px){ 
+    .breadcrumb-wrapper{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .single-post .post-autor-details{
         display:block;
         text-align:center;
