@@ -17,6 +17,14 @@ function crb_attach_theme_options() {
             Field::make( 'sidebar', 'crb_custom_sidebar' ),
             Field::make( 'image', 'crb_photo' ),
         ));*/
+    Container::make( 'user_meta', 'User Data' )
+    ->add_fields( array(
+        Field::make( 'image', 'mos-user-media', __( 'Image' ) ),
+        Field::make( 'complex', 'mos-user-social-links', __( 'Social Links' ) )
+        ->add_fields( array(
+            Field::make( 'text', 'link', __( 'Social Links' ) ),
+        ))
+    ) );
     Block::make( __( 'Mos Image Block' ) )
     ->add_fields( array(
         Field::make( 'text', 'mos-image-heading', __( 'Heading' ) ),
