@@ -708,6 +708,9 @@ body.search .ast-grid-common-col {
     .post-content {
         padding-bottom: 20px;
     }
+    .mos-post-layout-list .post-card .post-content .post-summary {
+        display: none;
+    }
 }
 @media (max-width: 767.98px){
     .ast-width-md-4 {
