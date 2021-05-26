@@ -613,7 +613,7 @@ body.search .ast-grid-common-col {
 .mos-post-grid-merge-four-rows{grid-row-end:span 4}
 .mos-post-grid-merge-five-rows{grid-row-end:span 5}
 .mos-post-grid-merge-six-rows{grid-row-end:span 6}
-@media (min-width:576px){
+@media (min-width:782px){
     .mos-post-grid-one{grid-column-end:span 1}
     .mos-post-grid-two{grid-column-end:span 2}
     .mos-post-grid-three{grid-column-end:span 3}
@@ -698,6 +698,9 @@ body.search .ast-grid-common-col {
 	.blog .entry-title,.archive .entry-title {
 			margin-top: 15px;
 	}
+    .mos-post-grid {
+        display: block;
+    }
 }
 @media (max-width: 767.98px){
     .ast-width-md-4 {
