@@ -701,6 +701,13 @@ body.search .ast-grid-common-col {
     .mos-post-grid {
         display: block;
     }
+    .entry-content .post-heading,.post-info {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .post-content {
+        padding-bottom: 20px;
+    }
 }
 @media (max-width: 767.98px){
     .ast-width-md-4 {
