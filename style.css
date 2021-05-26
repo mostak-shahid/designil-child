@@ -702,7 +702,7 @@ body.search .ast-grid-common-col {
     .mos-post-grid {
         display: block;
     }
-    .entry-content .post-heading,.post-info {
+    .entry-content .post-heading,.post-info,.blog .entry-title, .archive .entry-title,.mos-post-block .entry-header .entry-meta {
         margin-top: 20px;
         margin-bottom: 0;
     }
