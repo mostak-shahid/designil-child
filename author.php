@@ -16,7 +16,7 @@ get_header(); ?>
 
 <?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
 
-	<?php get_sidebar(); ?>
+	KUTTA
 
 <?php endif ?>
 
@@ -36,7 +36,7 @@ get_header(); ?>
 
 <?php if ( astra_page_layout() == 'right-sidebar' ) : ?>
 
-	<?php get_sidebar(); ?>
+	KUTTA
 
 <?php endif ?>
 
