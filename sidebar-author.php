@@ -1,7 +1,7 @@
 <div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
     <div class="sidebar-main">
         <aside id="nav_menu-3" class="widget widget_nav_menu">
-            <h2 class="widget-title">Categories</h2>
+            <h2 class="widget-title">About Author</h2>
             <nav class="menu-sidebar-menu-container" aria-label="Categories">
                 <ul id="menu-sidebar-menu" class="menu">
                     <li id="menu-item-13569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13569"><a href="https://designil.activebd4u.com/category/design/" class="menu-link">Design</a></li>
