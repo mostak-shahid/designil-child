@@ -22,7 +22,7 @@ function crb_attach_theme_options() {
         Field::make( 'image', 'mos-user-media', __( 'Image' ) ),
         Field::make( 'complex', 'mos-user-social-links', __( 'Social Links' ) )
         ->add_fields( array(
-            Field::make( 'text', 'link', __( 'Social Links' ) ),
+            Field::make( 'text', 'link', __( 'Social Link' ) ),
         ))
     ) );
     Block::make( __( 'Mos Image Block' ) )
