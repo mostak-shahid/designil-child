@@ -3,7 +3,11 @@
         <aside id="user-data" class="widget widget_user_data">
             <h2 class="widget-title">About Author</h2>
             <?php 
+            $media = carbon_get_user_meta( get_the_author_meta( 'ID' ), 'mos-user-media' );
+            $description = the_author_meta('description');
             $social_links = carbon_get_user_meta( get_the_author_meta( 'ID' ), 'mos-user-social-links' );
+            echo $media;
+            echo $description;
             foreach ( $social_links as $link ) {
                 var_dump($link);
             }
