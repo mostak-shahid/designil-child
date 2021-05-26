@@ -695,6 +695,7 @@ body.search .ast-grid-common-col {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+    body.page.home .entry-header {display: none;}
 	.blog .entry-title,.archive .entry-title {
 			margin-top: 15px;
 	}
