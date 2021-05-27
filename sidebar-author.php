@@ -24,6 +24,8 @@
                 </ul>
             <?php endif;?>
         </aside>
-        <aside id="media_image-2" class="widget widget_media_image"><img width="500" height="625" src="https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500.jpeg" class="image wp-image-13520  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500.jpeg 500w, https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500-240x300.jpeg 240w" sizes="(max-width: 500px) 100vw, 500px"></aside>
+        <?php if ( is_active_sidebar( 'author_widget' ) ) : ?>
+            <?php dynamic_sidebar( 'author_widget' ); ?>
+        <?php endif; ?>
     </div><!-- .sidebar-main -->
 </div>
