@@ -10,7 +10,7 @@
             <?php echo wp_get_attachment_image ($media, 'full', false, array('class' => 'rounded-3 mb-20'));?>
             <h4 class="team-member-name mb-10"><?php echo get_the_author_meta('display_name') ?></h4>
             <div class="team-member-bio mb-20"><?php echo $description; ?></div>
-            <?ph if ($social_links) : ?>
+            <?php if ($social_links) : ?>
                 <ul class="list-inline">
                     <?php foreach ( $social_links as $link ) : ?>
                         <li><?php echo $link; ?></li>
