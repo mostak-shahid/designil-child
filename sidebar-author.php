@@ -10,8 +10,8 @@
             <?php echo wp_get_attachment_image ($media, 'full', false, array('class' => 'rounded-3 mb-20'));?>
             <h4 class="team-member-name mb-10"><?php echo get_the_author_meta('display_name') ?></h4>
             <div class="team-member-bio mb-20"><?php echo $description; ?></div>
-            
-                <ul class="list-inline">
+            <?php if ($social_links) : ?>
+                <ul class="list-inline author-social">
                     <?php foreach ( $social_links as $value ) : ?>
                         <?php
                         $url = trim($value['link']);
@@ -22,7 +22,7 @@
                         <li><a target="_blank" href="<?php echo $value['link']; ?>"><i class="fa fa-<?php echo $arr[0] ?>"></i></a></li>
                     <?php endforeach;?>
                 </ul>
-            
+            <?php endif;?>
         </aside>
         <aside id="media_image-2" class="widget widget_media_image"><img width="500" height="625" src="https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500.jpeg" class="image wp-image-13520  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500.jpeg 500w, https://designil.activebd4u.com/wp-content/uploads/2021/05/6082d0f997bf4a5906af90d9_banner-sidebar-p-500-240x300.jpeg 240w" sizes="(max-width: 500px) 100vw, 500px"></aside>
     </div><!-- .sidebar-main -->
