@@ -13,7 +13,13 @@
             
                 <ul class="list-inline">
                     <?php foreach ( $social_links as $value ) : ?>
-                        <li><?php echo $value['link']; ?></li>
+                        <?php
+                        $url = trim($value['link']);
+                        $pattern = '/http(s)?:\/\/(www.)?(api.)?/i';
+                        $removeStr = preg_replace($pattern, '', $url);
+                        $arr = explode('.',$removeStr); 
+                        ?>
+                        <li><a target="_blank" href="<?php echo $value['link']; ?>"><i class="fa fa-<?php echo $arr[0] ?>"></i></a></li>
                     <?php endforeach;?>
                 </ul>
             
