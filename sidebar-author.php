@@ -4,7 +4,7 @@
             <h2 class="widget-title">About Author</h2>
             <?php 
             $media = carbon_get_user_meta( get_the_author_meta( 'ID' ), 'mos-user-media' );
-            echo wp_get_attachment_image ($media, 'full', array('class' => 'rounded-3'));
+            echo wp_get_attachment_image ($media, 'full', false, array('class' => 'rounded-3'));
             $description = the_author_meta('description');
             $social_links = carbon_get_user_meta( get_the_author_meta( 'ID' ), 'mos-user-social-links' );
             echo $media;
