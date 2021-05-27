@@ -12,8 +12,8 @@
             <div class="team-member-bio mb-20"><?php echo $description; ?></div>
             
                 <ul class="list-inline">
-                    <?php foreach ( $social_links as $link ) : ?>
-                        <li><?php var_dump ($link); ?></li>
+                    <?php foreach ( $social_links as $value ) : ?>
+                        <li><?php echo $value['link']; ?></li>
                     <?php endforeach;?>
                 </ul>
             
