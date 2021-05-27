@@ -13,7 +13,7 @@
             
                 <ul class="list-inline">
                     <?php foreach ( $social_links as $link ) : ?>
-                        <li><?php echo $link; ?></li>
+                        <li><?php var_dump ($link); ?></li>
                     <?php endforeach;?>
                 </ul>
             
