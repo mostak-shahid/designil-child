@@ -29,7 +29,7 @@ function mos_breadcrumbs(){
 	$homeLink = get_bloginfo('url') . '/';
 	$linkBefore = '<li>';
 	$linkAfter = '</li>';
-	//$linkAttr = ' rel="v:url" property="v:title"';
+	$linkAttr = ' rel="v:url" property="v:title"';
 	$link = $linkBefore . '<a' . $linkAttr . ' href="%1$s">%2$s</a>' . $linkAfter;
 	if (is_home()) {
 		if ($showOnHome == 1) echo '<ul class="breadcrumb">'.$linkBefore.'<a href="' . $homeLink . '">' . $text['home'] . '</a>'.$linkAfter.$before.$text['blog'].$after.'</ul>';

@@ -24,8 +24,8 @@
                 </ul>
             <?php endif;?>
         </aside>
-        <?php if ( is_active_sidebar( 'author_widget' ) ) : ?>
-            <?php dynamic_sidebar( 'author_widget' ); ?>
-        <?php endif; ?>
+        <?php //if ( is_active_sidebar( 'author_widget' ) ) : ?>
+            <?php //dynamic_sidebar( 'author_widget' ); ?>
+        <?php //endif; ?>
     </div><!-- .sidebar-main -->
 </div>
