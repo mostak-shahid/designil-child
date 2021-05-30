@@ -678,6 +678,12 @@ body.search .ast-grid-common-col {
     .single-post .related-post-wrapper .post-content{
         width:50%;
     }
+    #blog-teaser-part .mos-post-grid {
+        display: grid;
+    }
+    #blog-teaser-part .mos-post-grid-three {
+        grid-column-end: span 6;
+    }
 }
 @media (max-width:781.98px){ 
     .breadcrumb-wrapper{
@@ -719,6 +725,10 @@ body.search .ast-grid-common-col {
     .ast-width-md-4 {
         width: 100%;
         float: none;
+    }
+    
+    #blog-teaser-part .mos-post-grid {
+        display: block;
     }
 }
 @media (max-width:599.98px){
