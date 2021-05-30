@@ -687,6 +687,7 @@ body.search .ast-grid-common-col {
     }
     .mos-post-block.mos-post-layout-list .post-content, body.archive .post-content {
         padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width:781.98px){ 
