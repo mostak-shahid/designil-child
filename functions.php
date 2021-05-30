@@ -50,7 +50,7 @@ require_once 'breadcrumb.php';
 require_once 'hooks.php';
 require_once 'shortcodes.php';
 require_once 'carbon-fields.php';
-require_once 'widgets.php';
+//require_once 'widgets.php';
 
 
 function mos_get_posts($post_type = 'post',$posts_per_page='-1', $post_status = array('publish')){
