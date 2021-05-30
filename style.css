@@ -678,11 +678,15 @@ body.search .ast-grid-common-col {
     .single-post .related-post-wrapper .post-content{
         width:50%;
     }
+    
     #blog-teaser-part .mos-post-grid {
         display: grid;
     }
     #blog-teaser-part .mos-post-grid-three {
         grid-column-end: span 6;
+    }
+    .mos-post-block.mos-post-layout-list .post-content, body.archive .post-content {
+        padding: 20px;
     }
 }
 @media (max-width:781.98px){ 
